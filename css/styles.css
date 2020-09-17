@@ -85,6 +85,12 @@ a {
   background-color: #64DE82;
   color: #fff;
 }
+.btn-green-big {
+  padding: 23px 18px;
+  border-radius: 5px;
+  background-color: #64DE82;
+  color: #fff;
+}
 /* header bottom */
 .header-bottom {
   height: 600px;
@@ -98,5 +104,12 @@ a {
   position: absolute;
   top: 20%;
   left: 0;
-  max-width: 40%;
+  max-width: 50%;
+}
+.jumbo-text h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.jumbo-text a {
+  font-size: 15px;
 }
