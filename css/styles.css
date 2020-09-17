@@ -113,3 +113,18 @@ a {
 .jumbo-text a {
   font-size: 15px;
 }
+/* main */
+/* prima section */
+.info {
+  padding: 40px;
+  background-color: #BCBCBC;
+}
+.info h2,
+p {
+  color: black;
+  text-align: center;
+}
+.info p {
+  margin-top: 20px;
+  color: #727272;
+}
