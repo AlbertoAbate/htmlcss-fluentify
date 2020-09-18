@@ -7,10 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
   font-size: 16px;
-  /* altezza da togliere */
-  height: 6000px;
 }
 .container {
   width: 1200px;
@@ -28,11 +25,17 @@ body {
 .float-left {
   float: left;
 }
+.float-right {
+  float:right;
+}
 header a {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
   text-decoration: none;
+}
+p {
+  color: #727272;
 }
 
 /* header */
@@ -121,14 +124,13 @@ header a {
   padding: 40px;
   background-color: #BCBCBC;
 }
-.info h2,
-p {
+.info h2 {
   color: black;
   text-align: center;
 }
 .info p {
   margin-top: 20px;
-  color: #727272;
+  text-align: center;
 }
 /* seconda section */
 /* parte di sinistra */
@@ -151,7 +153,6 @@ p {
 }
 .colonne p {
   font-size: 16px;
-  color: #727272;
 }
 .metodo h3::after {
   content: '';
@@ -183,4 +184,37 @@ hr {
 }
 .piano p {
   margin: 20px 0;
+}
+/* footer */
+footer {
+  background-color: #BCBCBC;
+  padding: 50px;
+}
+.parte-finale h2 {
+  font-size: 30px;
+}
+.finale-destra .seleziona {
+  margin: 0 30px;
+}
+.finale-destra li {
+  display: inline-block;
+}
+.finale-destra .seleziona {
+  color: #727272;
+}
+.finale-destra .btn-green-big {
+  text-decoration: none;
+}
+
+/* help */
+.help a {
+  width: 60px;
+  position: fixed;
+  bottom: 0;
+  right: 200px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: #64DE82;
+  color: #fff;
+  text-decoration: none;
 }
